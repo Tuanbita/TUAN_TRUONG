@@ -1,0 +1,7 @@
+F:\Visual\C###\SQL\QLKS\DAL\bin\Debug\DAL.dll
+F:\Visual\C###\SQL\QLKS\DAL\bin\Debug\DAL.pdb
+F:\Visual\C###\SQL\QLKS\DAL\bin\Debug\EnTT.dll
+F:\Visual\C###\SQL\QLKS\DAL\bin\Debug\EnTT.pdb
+F:\Visual\C###\SQL\QLKS\DAL\obj\Debug\DAL.dll
+F:\Visual\C###\SQL\QLKS\DAL\obj\Debug\DAL.pdb
+F:\Visual\C###\SQL\QLKS\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

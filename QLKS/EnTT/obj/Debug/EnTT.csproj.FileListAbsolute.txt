@@ -1,0 +1,5 @@
+F:\Visual\C###\SQL\QLKS\EnTT\bin\Debug\EnTT.dll
+F:\Visual\C###\SQL\QLKS\EnTT\bin\Debug\EnTT.pdb
+F:\Visual\C###\SQL\QLKS\EnTT\obj\Debug\EnTT.dll
+F:\Visual\C###\SQL\QLKS\EnTT\obj\Debug\EnTT.pdb
+F:\Visual\C###\SQL\QLKS\EnTT\obj\Debug\EnTT.csprojResolveAssemblyReference.cache

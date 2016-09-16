@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLKSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QLKS.dbo.InHoaDon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="InHoaDon">
+    <Key>
+      <PropertyRef Name="MaHD" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaHD" Type="int" Nullable="false" />
+    <Property Name="TenNV" Type="nvarchar" MaxLength="30" />
+    <Property Name="MaPT" Type="int" />
+    <Property Name="MaKH" Type="int" Nullable="false" />
+    <Property Name="TenKH" Type="nvarchar" MaxLength="30" />
+    <Property Name="SoPhong" Type="int" />
+    <Property Name="TongTienPhong" Type="int" />
+    <Property Name="TongTienDV" Type="int" />
+    <Property Name="TongTien" Type="int" />
+    <Property Name="NgayLap" Type="date" />
+    <Property Name="NgayDen" Type="date" />
+  </EntityType>
+  <EntityContainer Name="QLKSModelStoreContainer">
+    <EntitySet Name="InHoaDon" EntityType="Self.InHoaDon" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [InHoaDon].[MaHD] AS [MaHD], 
+    [InHoaDon].[TenNV] AS [TenNV], 
+    [InHoaDon].[MaPT] AS [MaPT], 
+    [InHoaDon].[MaKH] AS [MaKH], 
+    [InHoaDon].[TenKH] AS [TenKH], 
+    [InHoaDon].[SoPhong] AS [SoPhong], 
+    [InHoaDon].[TongTienPhong] AS [TongTienPhong], 
+    [InHoaDon].[TongTienDV] AS [TongTienDV], 
+    [InHoaDon].[TongTien] AS [TongTien], 
+    [InHoaDon].[NgayLap] AS [NgayLap], 
+    [InHoaDon].[NgayDen] AS [NgayDen]
+    FROM [dbo].[InHoaDon] AS [InHoaDon]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
